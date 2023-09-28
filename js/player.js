@@ -14,6 +14,7 @@ class Player {
     this.element.style.width = `${this.width}px`;
     this.element.style.top = `${this.top}px`;
     this.element.style.left = `${this.left}px`;
+    this.element.classList.add("spin");
     this.gameScreen.appendChild(this.element);
   }
   move() {
